@@ -2,7 +2,7 @@ import {LOGO_URL} from "../utils/constants"
 import { useState } from "react"
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import { UseSelector, useSelector } from "react-redux/es/hooks/useSelector";
+import { UseSelector, useSelector } from "react-redux";
 
 const Header = () =>{
     const [btnNameReact,setBtnNameReact] = useState("Login");
